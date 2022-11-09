@@ -1,0 +1,31 @@
+*       {float: none; overflow: visible!important; color: black!important;}
+html    {font-size: 12pt;}
+a       {color: black;}
+@page   {margin: 5mm 5mm;}
+@page :first {margin: 0mm 0mm 5mm 0mm;}
+
+#Overview, #Title {padding: 0mm 5mm;}
+#Itinerary        {page-break-after: auto; width: 200mm;  left: 0mm; margin-left: 0mm; break-inside: avoid;}
+#map, #EnquiryForm, .grid-container-hero, #Errata             {display: none}
+    
+.grid-container-title div.item                  {font-size: 18pt; margin: 5mm 0mm;}
+.grid-container-overview div.item               {font-size: 18pt; line-height: 22pt; }
+.overview-container-avatar div.contact-details  {margin-top:8mm;}
+.grid-container-introduction                    {font-size: 11pt; line-height: 11pt;}
+.grid-container-itinerary .element              {grid-template-columns: auto;}
+
+#QuoteTitle, #Overview, #ContactDetails, .contact-details {color: black; opacity: 1;}
+.price, .quotenumber{color: black!important;}
+
+.grid-container-social, iframe, .video-container, .cruise-operator-logo, .sidebar {display: none;}
+
+.image-gallery .image-gallery-feature {
+   
+   
+     height: auto!important; 
+    
+}
+
+.image-gallery-feature {display:none;  }
+
+

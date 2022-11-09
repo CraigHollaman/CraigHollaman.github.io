@@ -1,7 +1,1832 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0QQcDEvwzljsYbWGfzsnJ5SsmmKBu9w&zoom=15&callback=initMap"></script>
+    <link href="Base.css" rel=" stylesheet" />
+    <link href="Print.css" media=" Print"
+        rel="stylesheet" />
+    <title>Cruise Cruise Cruise</title>
+</head>
+
+<body><input type="hidden" id="HFQuoteId" value="2976" /><input type="hidden" id="HFReplyAddress"
+        value="craig.hollaman@verticalsystems.vid" /><input type="hidden" id="HFCustomerId" value="1105" /><input
+        type="hidden" id="HFCustomerName" value="November" /><input type="hidden" id="HFTotalCost"
+        value="1500.00" /><input type="hidden" id="HFCRMURL" value="http://vcrmapp.dev.verticalsystems.co.uk/" /><input
+        type="hidden" id="HFVID" value="5221" /><input type="hidden" id="HFAddedBy" value="2" />
+    <section id="Header">
+        <section id="hero">
+            <div class="grid-container-hero">
+                <div class="item">
+                    <img id="preview-banner" data-id="banner" src="hero.jpg?">
+                    <img id="preview-logo" style="margin-left: 20px;" data-id="logo" src="Logo.png" />
+                </div>
+            </div>
+        </section>
+        <div class="item overview-container-avatar">
+            <div class="item details" id="ContactDetails"></div>
+        </div>
+        </div>
+        <section id="Title">
+            <div class="title-inner">
+                <div class="grid-container-title">
+                    <div class="item details" id="QuoteTitle"> Cruise Cruise Cruise</div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="Overview">
+        <div class="overview-inner">
+            <div class="grid-container-overview">
+                <div class="item">
+                    <div class="overview-container-no-avatar">
+                        <div class="item contact-details" id="ContactDetails">Craig Hollaman<br />01268 889342</div>
+                    </div>
+                </div>
+                <div class="item details"><span class="price">Total £ 1500.00</span><br /><span
+                        class="quotenumber">Quote No: 2976</span><span class="passengers">Adults: 2, Children: 0,
+                        Infants: 0</span></div>
+            </div>
+        </div>
+    </section>
+    <section id="Social" class="Social">
+        <div class="grid-container-social">
+            <div class="item">
+                <a href="Facebook" title="Facebook"><i class="fab fa-facebook-f social-icon HighlightColour-background"></i></a><a href="Instagram"
+                    title="Instagram"><i class="fab fa-instagram social-icon HighlightColour-background"></i></a><a
+                    href="Youtube" title="YouTube"><i
+                        class="fab fa-youtube social-icon HighlightColour-background"></i></a></div>
+            <div class="item text-right functions"><a onclick="window.print()" style="cursor:pointer"
+                    title="Print this quote"><i class="fas fa-print social-icon HighlightColour-background"></i></a><a
+                    onclick="CopyQuoteLink()" style="cursor:pointer" title="Copy and share this link with someone."><i
+                        class="fas fa-copy social-icon HighlightColour-background"></i></a><a href="Facebook"
+                    style="cursor:pointer" title="Message or chat with Facebook Messenger"><i
+                        class="fab fa-facebook-messenger social-icon HighlightColour-background"></i></a></div>
+        </div>
+    </section>
+    <section id="Introduction" class="Introduction">
+        <div class="grid-container-introduction">
+            <div class="item"> Dear Mr November,<br />
+                <p>Cruise...</p>
+                <br />Quote generated : 09/11/2022 18:06:27<br />
+            </div>
+        </div>
+    </section>
+    <section id="Itinerary" class="Itinerary">
+        <div class="grid-container-itinerary">
+            <h1 class="HighlightColour">Your itinerary</h1>
+            <div class="element">
+                <div class="item sidebar flight HighlightColour">
+                    <div class="icon-holder HighlightColour-background"><i class="fas fa-ship"></i></div>
+                </div>
+                <div class="cruise-item">
+                    <h4 class="HighlightColour">Cruise</h4><br />
+                    <div class="cruise-detail"><img
+                            src="https://widgety-assets.s3.amazonaws.com/2019/02/01/15/23/52/d89c0554-1a7c-417d-ab54-b288bce2b08e/Virgin Voyages Logo.png"
+                            class="cruise-operator-logo" style="width:300px" /><br /><br /></div>
+                    <div class="cruise-detail"></div>
+                    <div class="cruise-detail">Name: Dominican Daze <br />From: Miami, Florida<br />To: Miami, Florida
+                        <br />Duration: 5 Night(s)</div>
+                    <div class="cruise-detail">Ship: Scarlet Lady <br />Cruise line: Virgin Voyages<br />Embark: Friday
+                        15 September 2023 at: <b>20:00</b><br />Disembark: Wednesday 20 September 2023 at: <b>07:30</b>
+                    </div>
+                    <div class="cruise-information"><br />Cabin : Social Insider<br />
+                        <div class="image-gallery">
+                            <div class="image-gallery-feature"><img id="expandedImg" style="width:100%"
+                                    src="https://widgety-assets.s3.amazonaws.com/2022/06/22/12/01/59/7c2e9fef-e464-4fbc-a8fb-2717a2d6c62b/Virgin Voyages Scarlet Lady Exterior 0.JPG">
+                            </div>
+                        </div>
+                        <div><br />
+                            <h3 class="HighlightColour">Introduction</h3>
+                        </div><br />With a name inspired by an early Virgin Atlantic plane, Scarlet Lady is Virgin
+                        Voyages' premium take on what a luxury cruise ship means - sailing from the vibrant shores of
+                        Miami. Ushering in a new era for sea travel, she's designed with a unique approach to how
+                        cruises look and feel.<br /><br />
+                        <div class="video-container"><iframe class="video"
+                                src="https://www.youtube.com/embed/ygtQTGc9dWI" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <div class="tab"><button class="tab-link" title="Accommodation" id="defaultOpen"
+                                onclick="openSection('Accommodation', event)">Accommodation</button><button
+                                class="tab-link" title="Dining"
+                                onclick="openSection('Dining', event)">Dining</button><button class="tab-link"
+                                title="Enrichment" onclick="openSection('Enrichment', event)">Enrichment</button><button
+                                class="tab-link" title="Entertainment"
+                                onclick="openSection('Entertainment', event)">Entertainment</button><button
+                                class="tab-link" title="Health & Fitness"
+                                onclick="openSection('Health & Fitness', event)">Health & Fitness</button><button
+                                class="tab-link" title="Deck plans" onclick="openSection('deckplans', event)">Deck
+                                plans</button><button class="tab-link" title="Ports of call"
+                                onclick="openSection('portsofcall', event)">Ports of call</button></div>
+                        <div id="Accommodation" class="tab-content">
+                            <p>Modern, yacht-inspired aesthetic and clever cabin technology make for more than just a
+                                space to live (or sleep). The cabins and suites are a hero experience, a signature
+                                moment, places to escape and retreat from the world; that sweet moment of exhale. They
+                                are...cozy, stylish, modern and smart. This is sailing the Virgin way.</p>
+                            <p><b>Let’s talk Quarters. (Suites)</b></p>
+                            <p>RockStar Quarters are where superyachts meet luxury cruises along with rock and roll
+                                royalty. Accents of brass and slabs of marble guide you to spacious stargazing terraces,
+                                and every detail of these suites serves to celebrate the romance of the open ocean. The
+                                suites were conceptualized by world-renowned designer, Tom Dixon - describing Grace
+                                Jones as the muse for these gorgeous suites.</p>
+                            <p><b>Richard's Rooftop</b></p>
+                            <p>Booking a suite unlocks access to Richard's Rooftop; an exclusive sun deck where elegance
+                                meets exuberance. A lavish, elaborate and members-only outdoor space for RockStar
+                                Quarters Sailors to bask under the sun or have a drink under the stars. Think VIP
+                                Rockstar service, chilled vibes, cool tunes, sophisticated loungers and being surrounded
+                                by dichroic glass casting stunning rainbow reflections through the rooftop.</p>
+                            <p><b>Let's talk Cabins.</b></p>
+                            <p>The ultimate go-to for rejuvenation, the cabins stand out for their flexible furnishings,
+                                upgraded bathrooms with Roomy Rainshowers and sensory mood lighting, creating comfy
+                                quarters that are way more than just a place to crash. The Lady Ships offer the most
+                                lavish, and unique, beds at sea. The Seabed re-imagines the cruise cabin experience.
+                                Your cabin, your way. The cabins are custom-created to accommodate the Seabed, the
+                                first-ever transformational cabin bed at sea. Award-winning Walter Knoll, who’s designed
+                                thoughtful and sustainable furniture for over 150 years, is responsible for specially
+                                engineering and handcrafting our transformative Seabed in Germany. Sailors can enjoy
+                                their cabin in two distinct ways, as a place to revel or a place to relax. A luxurious
+                                loungey space transforms into an expansive bedroom with a queen size bed in one swift
+                                movement. The transformation can be executed by the sailor or by one of our crew. </p>
+                            <br />
+                            <div class="slider" id="Slider-Accommodation">
+                                <div class="grid-container-slider">
+                                    <div class="item control" onclick="nextSlide(-1)"><i
+                                            class="fas fa-chevron-circle-left"></i></div>
+                                    <div class="item content">
+                                        <div class="slide">
+                                            <div class="caption gallery">Mega RockStar Quarters | Massive Suite
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/40/432e670f-a3b4-4fe5-90da-4470ed0e5ca9/Virgin Voyages Accommodation Massive Suite 6.jpg" />
+                                            <p>Positioned at the front of the ship for unparalleled views, this most
+                                                tricked out, most extra, unreal three room suite at sea is fit for rock
+                                                &amp; roll royalty. Complete with a private music room that doubles as a
+                                                second bedroom, it’s all legend-style here, down to the brass and
+                                                leather nautical∘ finishings. </p>
+                                            <p>Step outside to find things like sun loungers, a standing hot tub and an
+                                                open air Peeka-View shower onto the sea. The expansive top to bottom
+                                                marble clad bathroom features an indoor Peek-a-Boo shower with an
+                                                iridescent, dichroic glass window onto the European king bed. </p>
+                                            <p>Sailors can debate the latest musical hits while sipping some bubbly at
+                                                the Champagne bucket-style table on the terrace, lounging on the full
+                                                length hammock, sitting in the conversation pit bar area or stretching
+                                                out in the suite’s private lookout point. Sleeps up to four.</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Full-length hammocks<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Large marble bathroom with indoor Peek-a-Boo shower<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                                <li>Outdoor Peek-a-View shower<br></li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (2) 55” 4K TV + (1) 43” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs</p>
+                                            <ul>
+                                                <li>Separate glam room with standalone tub<br></li>
+                                                <li>Circular sofa for hosting<br></li>
+                                                <li>Terrace conversation pit<br></li>
+                                                <li>2 separate wardrobes in glam room<br></li>
+                                                <li>Extra half bathroom<br></li>
+                                                <li>Music room<br></li>
+                                                <li>Terrace∘ hot tub and runway table<br></li>
+                                                <li>Lookout Point - stargazing lounge area<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Mega RockStar Quarters | Fab Suite
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/37/2013f1a9-e2aa-4744-b767-994a4dced400/Virgin Voyages Accommodation Fab Suite 5.jpg" />
+                                            <p>Whether a Sailor prefers sunshine yoga on the terrace, or serving up
+                                                negronis at the fully stocked, in-room bar, this suite is perfect for
+                                                those who love to host. </p>
+                                            <p>When here alone, they’ll be tasked with the age-old problem of relaxing
+                                                in the fully marbled bathroom with an indoor dichroic glass enclosed
+                                                Peek-a-Boo shower or rinsing off on the terrace in the suite’s outdoor
+                                                Peeka-View shower under the moonlight. </p>
+                                            <p>With brass nautical finishings throughout, Sailors can relax on the
+                                                European king bed while cranking some tunes on the vinyl record player
+                                                or head outside to the three-seater lounger then pop some bubbly∘ at
+                                                the Champagne table on the terrace. Sleeps up to four.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Large marble bathroom with indoor Peek-a-Boo shower<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                                <li>Outdoor Peek-a-View shower<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (2) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>L-shaped sofa (converts to sleep mode for 2)<br></li>
+                                                <li>Terrace∘ sofa and sun loungers<br></li>
+                                                <li>3-door wardrobe for extra space<br></li>
+                                                <li>Extra half bathroom<br></li>
+                                                <li>Entertainment credenza<br></li>
+                                                <li>Chaise lounge in bedroom<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Mega RockStar Quarters | Posh Suite
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/43/41f028b9-202b-44b9-b9e0-20d2937a22bb/Virgin Voyages Accommodation Posh Suite 1.jpg" />
+                                            <p>Not to be outdone by the (slightly) larger Massive and Fab suites, our
+                                                Posh Suites are designed to make Sailors feel like royalty so they can
+                                                live their most posh and glamorous life here. </p>
+                                            <p>Complete with brass nautical finishings throughout, Sailors will
+                                                enjoy the European king bed, while sipping a cocktail from the fully
+                                                stocked, in-room bar and listening to tunes from the vinyl
+                                                record player. </p>
+                                            <p>Sailors can relax on the sun lounger next to the Champagne bucket style
+                                                table overlooking the waves or rinse off with the open-air outdoor,
+                                                Peek-a-View shower on the terrace. Head inside for the indoor
+                                                Peek-a-Boo∘ shower with an iridescent dichroic glass window, situated in
+                                                the top to bottom marble encased bathroom. Sleeps up to four. </p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Large marble bathroom with indoor Peek-a-Boo shower<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                                <li>Outdoor Peek-a-View shower<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>L-shaped sofa (converts to sleep mode for 2)<br></li>
+                                                <li>Terrace sofa and sun loungers<br></li>
+                                                <li>3-door wardrobe for extra space<br></li>
+                                                <li>Extra half bathroom<br></li>
+                                                <li>Chaise lounge in bedroom<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (2) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Mega RockStar Quarters | Gorgeous Suite
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/38/8d12b3a5-5769-4d03-af81-0433c66031f8/Virgin Voyages Accommodation Gorgeous Suite.jpg" />
+                                            <p>Relaxing is truly an art form in this suite. The terrace hammock here is
+                                                the perfect spot to enjoy a nightcap while watching the moon flirt with
+                                                the sea. </p>
+                                            <p>Once inside, Sailors can lose themselves in the massive European king bed
+                                                while drifting off to the sounds of the waves (or the vinyl record
+                                                player). </p>
+                                            <p>Complemented perfectly by brass nautical finishings throughout, there’s
+                                                also a fully stocked, in-room bar, an indoor Peek-a-Boo shower with an
+                                                iridescent dichroic glass window for a peek into the room and an outdoor
+                                                Peek-a-View shower facing the sea, near the terrace Champagne table∘ and
+                                                sun lounger. Sleeps up to four. </p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Large marble bathroom with indoor<br></li>
+                                                <li>Peek-a-Boo shower<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                                <li>Outdoor Peek-a-View shower<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>L-shaped sofa (converts to sleep mode for 2)<br></li>
+                                                <li>Terrace sun loungers<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">RockStar Quarters | Brilliant Suite
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/35/f7a728f4-1686-4db8-8299-6daeb55c500f/Virgin Voyages Accommodation Brilliant Suite.jpg" />
+                                            <p>Whether a Sailor’s rider specifies 1000 candy bars, a rare-aged gin, or 1
+                                                penguin (try us), inner rockers will come alive in this suite. With a
+                                                view of the European king bed from the indoor Peek-a-Boo indoor shower
+                                                through a dichroic glass window, the only sensual rival is the ocean
+                                                itself. </p>
+                                            <p>Sailors can crank up the tunes from the record player, serve up some
+                                                drinks from the fully stocked in-room bar, then take the party to the
+                                                terrace to enjoy more stunning sea views while relaxing∘ around
+                                                the Champagne table. Sleeps up to four. </p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Large marble bathroom with indoor Peek-a-Boo shower<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>L-shaped sofa (converts to sleep mode for 2)<br></li>
+                                                <li>Terrace sun chairs</li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Rockstar Quarters | Cheeky Corner Suite -
+                                                Biggest Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/36/afd2617d-11a4-4b79-908c-dbaa921ece56/Virgin Voyages Accommodation Cheeky Corner Suite 3.jpg" />
+                                            <p>Wrapping panoramic views from the corner of the ship are emphasized by
+                                                design choices in these suites. Enjoy custom interior carbon fiber
+                                                chairs on this terrace, meant to maximize sea views - in this case, the
+                                                wake view. Sailors will gaze at the sea while relaxing near the gorgeous
+                                                outdoor Champagne table or kicking back in the hand-woven hammock chair.
+                                            </p>
+                                            <p>After they’ve finished soaking in the views, Sailors can indulge in some
+                                                classics with their vinyl record player and a personalized, fully
+                                                stocked, in-room bar. Then they’ll freshen up in the expansive top to
+                                                bottom marble∘ bathroom featuring the Roomiest Rainshower. Sleeps up to
+                                                two.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Roomiest Rainshower<br></li>
+                                                <li>Large marble bathroom<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>Corner sofa<br></li>
+                                                <li>Terrace sofa or sun loungers<br></li>
+                                                <li>3-door wardrobe for extra space<br></li>
+                                                <li>Interconnecting door with adjacent Sea Terrace<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Rockstar Quarters | Cheeky Corner Suite - Even
+                                                Bigger Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/36/f80750bb-ecbb-4d5b-8d67-15618e9de2c6/Virgin Voyages Accommodation Cheeky Corner Suite 1.jpg" />
+                                            <p>Wrapping panoramic views from the corner of the ship are emphasized by
+                                                design choices in these suites. Enjoy custom interior carbon fiber
+                                                chairs on this terrace, meant to maximize sea views - in this case, the
+                                                wake view. Sailors will gaze at the sea while relaxing near the gorgeous
+                                                outdoor Champagne table or kicking back in the hand-woven hammock chair.
+                                            </p>
+                                            <p>After they’ve finished soaking in the views, Sailors can indulge in some
+                                                classics with their vinyl record player and a personalized, fully
+                                                stocked, in-room bar. Then they’ll freshen up in the expansive∘ top to
+                                                bottom marble bathroom featuring the Roomiest Rainshower. Sleeps up to
+                                                two.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Roomiest Rainshower<br></li>
+                                                <li>Large marble bathroom<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>Corner sofa<br></li>
+                                                <li>Terrace sofa or sun loungers<br></li>
+                                                <li>3-door wardrobe for extra space<br></li>
+                                                <li>Interconnecting door with adjacent Sea Terrace<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room∘ safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Rockstar Quarters | Cheeky Corner Suite -
+                                                Pretty Big Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/36/afd2617d-11a4-4b79-908c-dbaa921ece56/Virgin Voyages Accommodation Cheeky Corner Suite 3.jpg" />
+                                            <p>Wrapping panoramic views from the corner of the ship are emphasized by
+                                                design choices in these suites. Enjoy custom interior carbon fiber
+                                                chairs on this terrace, meant to maximize sea views - in this case, the
+                                                wake view. Sailors will gaze at the sea while relaxing near the gorgeous
+                                                outdoor Champagne table or kicking back in the hand-woven hammock
+                                                chair. </p>
+                                            <p>After they’ve finished soaking in the views, Sailors can indulge in some
+                                                classics with their vinyl record player∘ and a personalized, fully
+                                                stocked, in-room bar. Then they’ll freshen up in the expansive top to
+                                                bottom marble bathroom featuring the Roomiest Rainshower. Sleeps up
+                                                to two.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Roomiest Rainshower<br></li>
+                                                <li>Large marble bathroom<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>Corner sofa<br></li>
+                                                <li>Terrace sofa or sun loungers<br></li>
+                                                <li>3-door wardrobe for extra space<br></li>
+                                                <li>Interconnecting door with adjacent Sea Terrace<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Rockstar Quarters | Seriously Suite
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/53/3fcbdb92-ebc5-429d-a45f-53aa56f104b1/Virgin Voyages Accommodation Seriously Suite 2.jpg" />
+                                            <p>Full stocked, in-room bar. Check. Record player∘ ready to spin favorite
+                                                tunes. Double check. This suite is ideal for those who are serious about
+                                                living life to the fullest. </p>
+                                            <p>With plenty of room to take in the mesmerizing ocean views from any
+                                                corner, luxury and self-care become serious art forms here. From the
+                                                hand-woven hammock on the terrace to the outdoor champagne table and
+                                                indoor Peek-a-Boo shower, this suite is the perfect place for bottle
+                                                poppin’ and voyage rockin’. Sleeps up to two.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Roomiest Rainshower<br></li>
+                                                <li>Large marble bathroom<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar</li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>Terrace sun chairs<br></li>
+                                                <li>3-door wardrobe for extra space<br></li>
+                                                <li>Brilliant Basics:<br></li>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Rockstar Quarters | Sweet Aft Suite - Biggest
+                                                Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/59/9ab9e946-fdd3-440d-928f-318b397523fa/Virgin Voyages Accommodation Suite Aft Suite 5.jpg" />
+                                            <p>With endless back-of-the-ship, ocean eye candy, there’s no such thing as
+                                                a bad view in this suite. Sailors can kick back here (the highest and
+                                                biggest terrace of the Sweet Afts) while lounging in the hand-woven
+                                                hammock chair or relaxing around the Champagne table.</p>
+                                            <p>After freshening up and soaking in the sunlight provided by the indoor
+                                                Peek-a-Boo shower∘ the fully stocked, in-room bar and record player are
+                                                the only things needed to get the party started. Sleeps up to two.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Roomiest Rainshower<br></li>
+                                                <li>Large marble bathroom<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>Terrace sun loungers<br></li>
+                                                <li>Peek-A-Boo shower looks directly out to terrace<br></li>
+                                                <li>Central aft views<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Rockstar Quarters | Sweet Aft Suite - Even
+                                                Bigger Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/59/9ab9e946-fdd3-440d-928f-318b397523fa/Virgin Voyages Accommodation Suite Aft Suite 5.jpg" />
+                                            <p>With endless back-of-the-ship, ocean eye candy, there’s no such thing as
+                                                a bad view in this suite. Sailors∘ can kick back here (the highest and
+                                                biggest terrace of the Sweet Afts) while lounging in the hand-woven
+                                                hammock chair or relaxing around the Champagne table. </p>
+                                            <p>After freshening up and soaking in the sunlight provided by the indoor
+                                                Peek-a-Boo shower the fully stocked, in-room bar and record player are
+                                                the only things needed to get the party started. Sleeps up to two.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Roomiest Rainshower<br></li>
+                                                <li>Large marble bathroom<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>Terrace sun loungers<br></li>
+                                                <li>Peek-A-Boo shower looks directly out to terrace<br></li>
+                                                <li>Central aft views<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Rockstar Quarters | Sweet Aft Suite - Pretty
+                                                Big Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2019/02/06/09/00/05/9c92f0e0-beac-4d6d-b5bb-26989c4e0095/Virgin Voyages Scarlet Lady Accommodation Sweet Aft Suite.jpg" />
+                                            <p>With endless back-of-the-ship, ocean eye candy, there’s no such thing as
+                                                a bad view in this suite. Sailors can kick back here (the highest and
+                                                biggest terrace of the Sweet Afts) while lounging in the hand-woven
+                                                hammock chair or relaxing around the Champagne table. </p>
+                                            <p>After freshening up and soaking in the sunlight provided by the indoor
+                                                Peek-a-Boo shower the fully∘ stocked, in-room bar and record player are
+                                                the only things needed to get the party started. Sleeps up to two.</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>European king bed<br></li>
+                                                <li>Roomiest Rainshower<br></li>
+                                                <li>Large marble bathroom<br></li>
+                                                <li>Mood lighting<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Fully stocked, in-room bar<br></li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>In-room glam brass vanity station<br></li>
+                                                <li>Terrace sun loungers<br></li>
+                                                <li>Peek-A-Boo shower looks directly out to terrace<br></li>
+                                                <li>Central aft views<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Tom Dixon-designed suite<br></li>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment: (1) 55” 4K TV<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>More wardrobe space<br></li>
+                                                <li>Premium bathroom amenities<br></li>
+                                                <li>Upgraded linens<br></li>
+                                                <li>Vinyl record player<br></li>
+                                                <li>Plush robes<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">XL Sea Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/52/13/ee0e4c6a-363a-45e5-8224-317d9eb57954/Virgin Voyages Accommodation XL Sea Terrace 7.jpg" />
+                                            <p>Just picture everything The Sea Terrace has, with more room space and a
+                                                way bigger bathroom. Our biggest of all cabins actually. Perfect for
+                                                those who make getting ready∘ a serious art. </p>
+                                            <p>A sensory and responsive clever cabin, nautically inspired brass and
+                                                leather finishings, a personal tablet, intuitive mood lighting, music
+                                                controls, movie streaming, one-touch room service and a supremely
+                                                comfy European queen, transitional Seabed. Plus the large, perfectly
+                                                partitioned, upgraded walk-in bathroom has enough space for two. Even
+                                                the Roomier Rainshower boasts just the right amount of space for some
+                                                “we” time. Sleeps up to three.</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>Seabed<br></li>
+                                                <li>Roomier Rainshower<br></li>
+                                                <li>Mood lighting<br></li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>Larger bathroom and cabin space<br></li>
+                                                <li>Saddle leather lounge chair<br></li>
+                                                <li>Champagne table<br></li>
+                                                <li>Enclosed private toilet<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (43” 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Central Sea Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/46/c47340fb-66c9-43e4-bc2e-f5e1b82d2ec6/Virgin Voyages Accommodation Sea Terrace 10.jpg" />
+                                            <p>For Sailors who prefer to be mid ship, this cabin has all the comforts
+                                                and amenities of The Sea Terrace, but is positioned closer to the
+                                                action. </p>
+                                            <p>Featuring nautically inspired brass and leather finishings, this sensory
+                                                and responsive clever cabin has it all from the personal∘ tablet,
+                                                intuitive mood lighting, music controls, movie streaming, one-touch room
+                                                service, European queen, transitional Seabed, handwoven terrace hammock
+                                                and upgraded bathroom experience with a Roomy Rainshower. Sleeps up to
+                                                three.</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>Seabed<br></li>
+                                                <li>Roomy Rainshower<br></li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Mood lighting</p>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>Centrally located midship<br></li>
+                                                <li>Saddle leather lounge chair<br></li>
+                                                <li>Champagne table<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (43” 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Sea Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/44/2ec024fe-7f92-499c-b71b-9bea97a3e0fd/Virgin Voyages Accommodation Sea Terrace 1.jpg" />
+                                            <p>Epic ocean views, whether Sailors are inside on the European queen,
+                                                transitional Seabed or dangling from the sustainable sourced, hand-woven
+                                                terrace hammock. </p>
+                                            <p>Complete with nautically inspired brass and leather finishings, Sailors
+                                                will enjoy this sensory and responsive∘ clever cabin. Just pick up the
+                                                personal tablet to adjust the mood lighting, music controls, movie
+                                                streaming or even one-touch room service. </p>
+                                            <p>Sea gaze outside or head in to freshen up under the Roomy Rainshower in
+                                                the upgraded bathroom experience. Sleeps up to four</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>Seabed<br></li>
+                                                <li>Roomy Rainshower<br></li>
+                                                <li>Mood lighting<br></li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>Saddle leather lounge chair<br></li>
+                                                <li>Champagne table<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (43” 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Sea Terrace Guarantee
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/49/499373b8-edc9-4a80-948b-6ba7a6ac311c/Virgin Voyages Accommodation Sea Terrace 26.jpg" />
+                                            <p>Epic ocean views, whether Sailors are inside on the European queen,
+                                                transitional Seabed or dangling from the sustainable sourced, hand-woven
+                                                terrace hammock.</p>
+                                            <p>Complete with nautically inspired brass and leather finishings, Sailors
+                                                will enjoy this sensory and responsive∘ clever cabin. Just pick up the
+                                                personal tablet to adjust the mood lighting, music controls, movie
+                                                streaming or even one-touch room service.</p>
+                                            <p>Sea gaze outside or head in to freshen up under the Roomy Rainshower in
+                                                the upgraded bathroom experience. Sleeps up to four</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Terrace hammock</li>
+                                                <li>Seabed</li>
+                                                <li>Roomy Rainshower</li>
+                                                <li>Mood lighting</li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>Saddle leather lounge chair</li>
+                                                <li>Champagne table</li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Glam area</li>
+                                                <li>Clever cabin technology</li>
+                                                <li>In-room entertainment (43” 4K TV)</li>
+                                                <li>Steamer &amp; hairdryer</li>
+                                                <li>In-room safe (fits 17” laptop)</li>
+                                                <li>Flexible wardrobe for luggage and clothes</li>
+                                                <li>Mini bar</li>
+                                                <li>Plugs/USBs in all the right places</li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Limited View Sea Terrace
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/50/5863c82b-e0ae-4f7c-864e-23e0baab7897/Virgin Voyages Accommodation Sea Terrace 30.jpg" />
+                                            <p>All the comforts and amenities of The Sea Terrace with a slightly limited
+                                                view because, well, shippy stuff. Otherwise, this sensory and responsive
+                                                clever cabin has it all from nautically inspired brass∘ and leather
+                                                finishings to the personal tablet, intuitive mood lighting, music
+                                                controls, movie streaming and one-touch room service. </p>
+                                            <p>Sailors will relax on the European queen, transitional Seabed or
+                                                the sustainably sourced, hand-woven terrace hammock. Not in the outdoor
+                                                mood? No problem, refresh and relax under the Roomy Rainshower in the
+                                                upgraded bathroom experience. Sleeps up to four.</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Terrace hammock<br></li>
+                                                <li>Seabed<br></li>
+                                                <li>Roomy Rainshower<br></li>
+                                                <li>Mood lighting<br></li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>Obstructed View<br></li>
+                                                <li>Saddle leather lounge chair<br></li>
+                                                <li>Champagne table<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (43" 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17" laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Sea View
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/53/8b0f3929-b12e-4c85-b717-551ca8ccc7f4/Virgin Voyages Accommodation Sea View 1.jpg" />
+                                            <p>Views on views minus the messy hair. This cabin has all the amenities of
+                                                cabin life with a window seat that’s the closest Sailors can get to the
+                                                ocean without getting wet (save that for the pool party). Sleeps up to
+                                                three.</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Seabed<br></li>
+                                                <li>Roomy Rainshower<br></li>
+                                                <li>Mood lighting<br></li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Uniquie Call-Outs:</p>
+                                            <ul>
+                                                <li>Window Seat<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (43” 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Sea View Guarantee
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/53/8b0f3929-b12e-4c85-b717-551ca8ccc7f4/Virgin Voyages Accommodation Sea View 1.jpg" />
+                                            <p>Views on views minus the messy hair. This cabin has all the amenities of
+                                                cabin life with a window seat that’s the closest Sailors can get to the
+                                                ocean without getting wet (save that for the pool party). Sleeps up to
+                                                three.</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Seabed</li>
+                                                <li>Roomy Rainshower</li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Mood lighting</p>
+                                            <ul>
+                                                <li>Uniquie Call-Outs:</li>
+                                                <li>Window Seat</li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Glam area</li>
+                                                <li>Clever cabin technology</li>
+                                                <li>In-room entertainment (43” 4K TV)</li>
+                                                <li>Steamer &amp; hairdryer</li>
+                                                <li>In-room safe (fits 17” laptop)</li>
+                                                <li>Flexible wardrobe for luggage and clothes</li>
+                                                <li>Mini bar</li>
+                                                <li>Plugs/USBs in all the right places</li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Solo Sea View
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/57/34dfd6bb-7d94-47e2-a871-8fbcab1ee1a2/Virgin Voyages Accommodation Solo Sea View 5.jpg" />
+                                            <p>Views on views minus the messy hair. Sailors will enjoy all the amenities
+                                                of cabin life while watching the waves∘ from a personal hideaway. It’s
+                                                the closest Sailors can get to the ocean without getting wet (save that
+                                                for the pool party). Sleeps one.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Big window<br></li>
+                                                <li>Super large single bed<br></li>
+                                                <li>Roomy Rainshower<br></li>
+                                                <li>Mood lighting<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (43” 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Insider
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/52/08/8655f772-759b-4080-a580-d08f8970b832/Virgin Voyages Accommodation The Insider 2.jpg" />
+                                            <p>Nightlife type who prefers to catch Z’s without the morning sun peeking
+                                                through the blinds? Then this window-free cabin will be perfect. Add in
+                                                all the amenities of other cabins, just subtract the pesky glare. Sleeps
+                                                up to three.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Seabed<br></li>
+                                                <li>Roomy Rainshower<br></li>
+                                                <li>Mood lighting<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (43” 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage<br></li>
+                                                <li>and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Social Insider
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/54/c3b596d5-3306-4cd2-9c2e-93f32db61ad3/Virgin Voyages Accommodation Social Insider 2.jpg" />
+                                            <p>Built for groups of Sailors, what happens inside this cabin, stays inside
+                                                (because it’s sans windows). The bunk beds go from sleep∘ to sit in no
+                                                time while the amenities in this sensory and responsive clever cabin
+                                                match that of all other cabins, except the way bigger TV. Sleeps up to
+                                                four.</p>
+                                            <p>Heroes:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>2 bunk beds (4 single beds)<br></li>
+                                                <li>Roomy Rainshower<br></li>
+                                                <li>Mood lighting<br></li>
+                                            </ul>
+                                            <p></p>
+                                            <p>Brilliant Basics:</p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (50” 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                            <p>Unique Call-Outs:</p>
+                                            <ul>
+                                                <li>Game console<br></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Solo Insider
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/51/57/abd1035a-06ec-4d60-b937-d1af7d775274/Virgin Voyages Accommodation Social Insider 11.jpg" />
+                                            <p>This cocoon-like cabin is perfect for fans of late nights and sleeping in
+                                                until after lunch. It’s super cozy and ideal for solo travelers. </p>
+                                            <p>Standard cabin amenities, check. No window, no problem. Sleeps one.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Super large single bed<br></li>
+                                                <li>Roomy Rainshower<br></li>
+                                                <li>Mood lighting<br></li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Glam area<br></li>
+                                                <li>Clever cabin technology<br></li>
+                                                <li>In-room entertainment (43” 4K TV)<br></li>
+                                                <li>Steamer &amp; hairdryer<br></li>
+                                                <li>In-room safe (fits 17” laptop)<br></li>
+                                                <li>Flexible wardrobe for luggage and clothes<br></li>
+                                                <li>Mini bar<br></li>
+                                                <li>Plugs/USBs in all the right places<br></li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Insider Guarantee
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/11/52/08/8655f772-759b-4080-a580-d08f8970b832/Virgin Voyages Accommodation The Insider 2.jpg" />
+                                            <p>Nightlife type who prefers to catch Z’s without the morning sun peeking
+                                                through the blinds? Then this window-free cabin will be perfect. Add in
+                                                all the amenities of other cabins, just subtract the pesky glare. Sleeps
+                                                up to three.</p>
+                                            <p>Heroes:</p>
+                                            <ul>
+                                                <li>Seabed</li>
+                                                <li>Roomy Rainshower</li>
+                                                <li>Mood lighting</li>
+                                            </ul>
+                                            <p>Brilliant Basics:</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Glam area</li>
+                                                <li>Clever cabin technology</li>
+                                                <li>In-room entertainment (43” 4K TV)</li>
+                                                <li>Steamer &amp; hairdryer</li>
+                                                <li>In-room safe (fits 17” laptop)</li>
+                                                <li>Flexible wardrobe for luggage and clothes</li>
+                                                <li>Mini bar</li>
+                                                <li>Plugs/USBs in all the right places</li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <div class="item control" onclick="nextSlide(1)"><i
+                                            class="fas fa-chevron-circle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Dining" class="tab-content">
+                            <p><b>Food glorious food. </b></p>
+                            <p>Michelin-starred chef collective creates incredible onboard dining experiences. Virgin
+                                Voyages have ditched buffets and pre-set dining times to bring Sailors made-to-order
+                                food and leisurely brunches from our 20+ unique eateries. All the food is included -
+                                meaning no exclusive spots they have to pay to get into. </p>
+                            <p><b>Eat your heart out. </b></p>
+                            <p>Pairing fresh ingredients and vibrant flavors with ever-evolving ways to experience food,
+                                we’ve elevated and diversified our menus while minimizing waste by only cooking what’s
+                                been ordered. It’s a win for their stomach and a win for the planet.</p>
+                            <p>Here’s a taste of what to expect from our foodie-approved eateries. </p>
+                            <p></p>
+                            <ul>
+                                <li>20+ Eateries On Us - From steakhouses and Korean BBQ to a cooking lab and an
+                                    international food market, all eateries are on us.</li>
+                                <li>No Buffets or Big Dining Halls - With unique spaces and diverse options, we’ve
+                                    ditched the one-big-dining-hall experience and said goodbye to buffets.</li>
+                                <li>Late-Night Bites - Whether you're craving a slice of pizza, a burger, or a hearty
+                                    diner breakfast - your schedule doesn’t stop, so neither will ours.</li>
+                                <li>Made-To-Order - Every eatery has its own kitchen and an executive chef - and all our
+                                    food is fresh and made-to-order, never mass produced.</li>
+                                <li>Fresh Is Best - Balance is key, so we offer vegetarian, vegan and gluten-free
+                                    options in every eatery - designed from scratch and always created from the freshest
+                                    ingredients.</li>
+                                <li>Michelin-Starred Chefs - World-class Chefs like Brad Farmerie (of PUBLIC in NYC) and
+                                    Sohui Kim (of The Good Fork and Insa in NYC) are a few of the names behind our
+                                    incredible menus.</li>
+                            </ul>
+                            <p></p><br />
+                            <div class="slider" id="Slider-Dining">
+                                <div class="grid-container-slider">
+                                    <div class="item control" onclick="nextSlide(-1)"><i
+                                            class="fas fa-chevron-circle-left"></i></div>
+                                    <div class="item content">
+                                        <div class="slide">
+                                            <div class="caption gallery">The Wake
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/58/e1f30bf3-b38e-483d-8899-986ecf6f0f1d/Virgin Voyages Dining The Wake 1.jpg" />
+                                            <p>The perfect mix of sophistication, nostalgia and cool - entering The Wake
+                                                is an event in itself. As soon as they see the grand staircase, Sailors
+                                                will feel like they’ve stumbled onto a glitz &amp; glam movie set that
+                                                is regal by design with raised levels of luxury and exuberance.</p>
+                                            <p>FEATURES</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Magnum bottles of wine poured table side</li>
+                                                <li>Personal dining rooms for groups of 10+</li>
+                                                <li>Steak, seafood and a full raw bar</li>
+                                                <li>Lavish brunch featuring a selection of Eggs Benedict</li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Pink Agave
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2020/01/14/09/17/57/82d4be7d-b44c-4ce6-9c0c-c3c9fa241d77/Virgin Voyages - Valiant Lady - Pink Agave 2.jpg" />
+                                            <p>Inspired by the vibrant, colorful streets of Mexico, Sailors are treated
+                                                to a menu reflecting the regions emerging culinary renaissance.
+                                                Personal, intimate, and educational, our mezcalier will guide you
+                                                through a highly curated dining and drinking experience. Pink Agave is
+                                                our tribute to sophisticated Mexican Cuisine, and home to our impressive
+                                                mezcal and tequila collection. </p>
+                                            <p>FEATURES</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Mezcal &amp; tequila library</li>
+                                                <li>Late night lounge</li>
+                                                <li>Authentic Mexican cuisine</li>
+                                                <li>Private group dining</li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Razzle Dazzle
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2018/11/08/14/15/45/1aaf2d69-3a44-49ba-99a7-1f1c788aff83/Virgin Voyages Scarlet Lady Razzle Dazzle 1.jpg" />
+                                            <p>One of our most unique offerings onboard, Razzle Dazzle Restaurant is a
+                                                veggie-forward eatery that delivers a healthy dose of nice with just the
+                                                right amount of naughty. Sailors can choose from one side that skews
+                                                towards plant-based vegetarian and vegan dishes including must have
+                                                munchies such as the Impossible Burger, or the indulgent side – meaty
+                                                cheats, sweets and gluttonous treats. Sailors can enjoy healthy
+                                                smoothies and juices by day and the retox with signature cocktails by
+                                                night in a lively, bustling environment.</p>
+                                            <p>FEATURES</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Veggie-focused menu</li>
+                                                <li>Famous all Red Bar featuring signature cocktails</li>
+                                                <li>Bottomless brunch</li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Test Kitchen
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/46/b6bded16-6594-4a8f-bf88-67161dc6a89c/Virgin Voyages Dining Test Kitchen 7.jpg" />
+                                            <p>The Test Kitchen is the most unique, innovative, and experimental dining
+                                                experience on ship. The tasting menu is presented in the form of an
+                                                ingredient list where Sailors put their trust into our expert chefs to
+                                                make the decisions. This laboratory-like eatery is part cooking school
+                                                and part restaurant. It's educational, experiential and delicious in
+                                                ways you’ve never tasted. With classes and evolving tasting menus, this
+                                                is for the curious, boundary-pushing tastebuds on board.</p>
+                                            <p>FEATURES</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Chef driven set menu</li>
+                                                <li>Innovative culinary technique</li>
+                                                <li>Curated wine, beer, cocktail and spirit free pairing menus</li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Gunbae
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/30/e7db5cac-9067-4316-ba53-6352916b318b/Virgin Voyages Dining Gunbae 3.jpg" />
+                                            <p>If you're into hands-on meat-grilling and soju drinking, the Korean BBQ
+                                                is the perfect spot. Sailors have the option to choose from meats,
+                                                seafood, vegetables, or all of the above when they’re ready to start
+                                                grilling and our crew will be on hand to help. Virgin Voyages specially
+                                                designed a flameless grill for the ultimate BBQ experience, which will
+                                                be the centerpiece of the loudest restaurant at sea. </p>
+                                            <p>FEATURES</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Authentic Korean Dishes</li>
+                                                <li>Grill-your-own BBQ</li>
+                                                <li>Drinking games and fun cocktails</li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Extra Virgin
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/25/399bfeae-68ea-449e-b4e7-831eaefa155b/Virgin Voyages Dining Extra Virgin 5.jpg" />
+                                            <p>Deeply rooted in Italian culinary traditions, the trattoria serves
+                                                regionally-inspired food punctuated by our fresh, handmade pasta. Start
+                                                with antipasti - this selection of cured meats and cheeses gets Sailors’
+                                                mouths watering for more. While everyone loves a good pizza, Extra
+                                                Virgin focusses on pasta-centric favorites made fresh daily. Match with
+                                                a great Italian wine and top it off with traditional aperitivos and
+                                                digestivos to make their night complete...or help it get started.</p>
+                                            <p>FEATURES</p>
+                                            <p></p>
+                                            <ul>
+                                                <li>Freshly made pasta</li>
+                                                <li>The best Italian wine list on the ship</li>
+                                                <li>Table side affogato cart</li>
+                                                <li>Aperitivo hour</li>
+                                            </ul>
+                                            <p></p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Social Club Diner
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/57/2cb2af1a-8d07-48d2-b910-df61f78a7710/Virgin Voyages Dining The Social Club 1.jpg" />
+                                            <p>The food and drink make the experience here where we’ve spun modern takes
+                                                on fairground classics. But they don’t call it “Social” for nothing -
+                                                inside you’ll find Sailors playing air hockey, shuffleboard and
+                                                foosball. Pretzels, potato chips, popcorn, corndogs, hotdogs, cotton
+                                                candy, candy apples, fudge, kettle corn, frozen bananas and churros are
+                                                all on offer. Sailors can also grab an adult-by-design shake or float
+                                                stacked with cookies, cake, frosting and candy. </p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Pizza Place
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/38/7234fb7b-24a6-4d47-a2c3-755328e16096/Virgin Voyages Dining Pizza Place 1.jpg" />
+                                            <p>No pre-cooked pizza slices sitting under warming lamps here. Sailors can
+                                                choose from the classic menu or design their very own bespoke pizza.
+                                                Featuring a brilliant beach club inspired design with white and pastel
+                                                colored furniture, navy striped accent pillows and hammocks for
+                                                lounging, this casual spot is a perfect lunch time destination or
+                                                late-night, post drink, hunger buster go-to. </p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Lick Me Till...Ice Cream
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/34/becfe45d-5650-4ddf-89bf-84076437efa9/Virgin Voyages Dining Lick me till Ice Cream 10.jpg" />
+                                            <p>The ice cream shop harkens back to that magical, summer nostalgia, just
+                                                with a Virgin Voyages twist and some complimentary scoops. That includes
+                                                six seasonal home (or ship) made flavors, like the vegan Green Machine
+                                                or Gianduiotto Chocolate. A daily featured flavor will be announced from
+                                                our nearby record shop DJ booth - it's guaranteed to be unlike anything
+                                                you've had at your local ice cream shop.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Sun Club Cafe
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/43/3fb5c5b6-1633-44d7-ae61-4e9aec8942c9/Virgin Voyages Dining Sun Club Cafe 1.jpg" />
+                                            <p>Inspired by one of the most iconic dishes of the Hawaiian islands, we
+                                                offer marinated tuna, chicken and salmon over greens or rice bowls.
+                                                Fresh, tasty and healthy, they’re high in lean protein and healthy fats
+                                                while giving you a sunny dose of veggies or whole grains. </p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Dock House
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/23/c4febb39-d430-40d7-9426-1ee21c03e2e3/Virgin Voyages Dining Dock House and Bar 2.jpg" />
+                                            <p>An effortlessly elegant, yet cozy counterpart to the view-focused scene
+                                                outside. Sailors raise the flag on their menu when they need service and
+                                                relax whilst the roaming Mezze cart swings by to take their order.
+                                                Choose from flame grilled skewers or house-made dips and dippers. The
+                                                Dock feels like an elegant cabana caught between the chill, seaside
+                                                perfection of Ibiza and the rustic-chic resorts of Brazil. The Dock
+                                                delivers bright flavors through light Mediterranean-inspired bites.
+                                                Sailors can relax, sunbathe and enjoy live acoustic music in this
+                                                outdoor spot.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Galley
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/51/cbe01657-3593-4818-a3d2-5f66db39895f/Virgin Voyages Dining The Galley 2.jpg" />
+                                            <p>Modeled after popular food halls where you can taste a variety of options
+                                                - The Galley, designed by Softroom - is your go-to for a quick bite,
+                                                meal or pick-me-up throughout the day. Featuring a mix of more than
+                                                eight shops and food-truck style carts, each spot will have a unique
+                                                concept with signature dishes that change to suit the time of day. The
+                                                Galley (takes a deep breath before reading an impressively long list)
+                                                boasts a dedicated bakery and pastry shop, a panini shop, a burger
+                                                grill, a taco shack, a sushi bar with bento boxes, a noodle bar, a soup
+                                                and salad stand, and a 24-hour American diner. <i>And exhale.</i><br>
+                                            </p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Noodle Around
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/35/6510558f-e5f8-4331-b767-3cf5f4bc10f0/Virgin Voyages Dining Noodle Around.jpg" />
+                                            <p>Our noodle offerings evolve from miso soup specials in the morning to
+                                                tonkatsu ramen in the afternoon and evening.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Bento Baby
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/21/285ab867-1553-4e78-aa1e-3c69d2b60c4e/Virgin Voyages Dining Bento Baby 4.jpg" />
+                                            <p>Head to The Galley and start your day with a Japanese breakfast, or end
+                                                if with a bento box. Or actually, have a bento box for lunch, too
+                                                (because you can do that, here).</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Sweet Side
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/57/1167050a-bd85-425b-b97e-2aa1bb9c8855/Virgin Voyages Dining The Sweet Side 1.jpg" />
+                                            <p>The Sweet Side of The Galley houses pastries in the morning (for the
+                                                sweet-toothed breakfast lovers among us) and desserts later on. It's a
+                                                non stop sweet fest, so leave your rude friends by the pool.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Well Bread
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/17/05/6b1e6543-5750-4fda-ba7b-baccd8b92c2c/Virgin Voyages Dining Well Bread.jpg" />
+                                            <p>Well Bread has fans, and we call them "Bread Heads". So make a little
+                                                bread head and grab a pastry for breakfast or a flatbread in the
+                                                afternoon or evening down at The Galley.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Diner & Dash
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/22/2207c569-0bd1-46a9-b7cf-ad0e9d976ae1/Virgin Voyages Dining Diner & Dash.jpg" />
+                                            <p>This is our 24-hours-a-day classic American diner grub located in the
+                                                Galley. Craving an egg and bacon dish in the morning? BLT at lunch?
+                                                Chicken and potatoes for dinner? You're in luck, because this is the
+                                                classic diner fare of your middle-American dreams.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Burger Bar
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/22/96492942-e43a-4c7b-91e5-bd225cddb8e3/Virgin Voyages Dining Burger Bar.jpg" />
+                                            <p>All day we burger. Breakfast burgers in the morning. Lunch burgers in the
+                                                afternoon. Dinner burgers in the evening. And Impossible burgers for the
+                                                plant-based eaters. Burgers. Burgers. Burgers. Straight up.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Hot off the Press
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/32/1c7d254f-a50c-43f6-a5d7-d4a4a44970b0/Virgin Voyages Dining Hot Off the Press 1.jpg" />
+                                            <p>From serving breakfast-themed sandwiches and toasties in the morning to
+                                                afternoon and evening-inspired sandwiches later on - something's always
+                                                being toasted in The Galley.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">Let's Taco Bout It
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/33/e68f2f49-13f0-4a7e-82c1-7877ea2bbe67/Virgin Voyages Dining Let's Taco Bout It.jpg" />
+                                            <p>Located in The Galley, this taco spot takes you straight to the food
+                                                truck-lined streets of Austin featuring breakfast burritos in the
+                                                morning, and vegetarian and meat-based tacos in the afternoon and
+                                                evening.</p>
+                                        </div>
+                                        <div class="slide">
+                                            <div class="caption gallery">The Daily Mix
+                                                <hr />
+                                            </div><img
+                                                src="https://widgety-assets.s3.amazonaws.com/2021/03/30/15/16/50/c9833cc3-70f1-48ea-86f2-cce24b98bd79/Virgin Voyages Dining The Daily Mix 3.jpg" />
+                                            <p>This healthy joint in The Galley features yogurt and oatmeal dishes for
+                                                breakfast and turns to soups and salads in the afternoon and evening. So
+                                                if you're looking to mix it up in a healthy way, you know where to go.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="item control" onclick="nextSlide(1)"><i
+                                            class="fas fa-chevron-circle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Enrichment" class="tab-content">
+                            <p>There are some experiences you only dream about and there are those you didn’t know you
+                                needed — until they’re right in front of you. Our Shore Things are the perfect balance
+                                of both.</p>
+                            <p>You can book Shore Things and view their details, duration, and prices on the Sailor App
+                                by visiting the Discover tab, chatting with us online, or by calling Sailor Services.
+                            </p><br />
+                            <div class="slider" id="Slider-Enrichment">
+                                <div class="grid-container-slider">
+                                    <div class="item control" onclick="nextSlide(-1)"><i
+                                            class="fas fa-chevron-circle-left"></i></div>
+                                    <div class="item content"></div>
+                                    <div class="item control" onclick="nextSlide(1)"><i
+                                            class="fas fa-chevron-circle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Entertainment" class="tab-content">
+                            <p><b>Unexpect the Expected</b></p>
+                            <p>Swapping classic Broadway productions for exhilarating, contemporary and immersive
+                                entertainment, Sailors have the opportunity to choose from a festival-like lineup of
+                                shows and happenings developed by the world’s most-talked-about producers, directors,
+                                choreographers and artists. From modern takes on classic stories, to interactive dance
+                                parties and off-the wall participatory acts, the bespoke intimate and authentic
+                                experiences will push the boundaries of traditional stage performances. </p>
+                            <p></p>
+                            <ul>
+                                <li>Creative Collective - Comprised of innovative, award winning, producers, directors,
+                                    choreographers and artists, Virgin Voyages' Creative Collective is putting on
+                                    first-to-sea (and land!) shows.</li>
+                                <li>Immersive Experiences - Never-before-seen stage productions that break the fourth
+                                    wall and blur the line between audience and performer.</li>
+                                <li>Serendipity All Around - Phantom Folktales - song based mini plays throughout the
+                                    ship, that appear out of thin air, and then disappear just as quickly. Unexpected
+                                    pop up performances created by PigPen Theatre Co.</li>
+                                <li>Scarlet Night - Wear a splash of red and get ready for the dreamiest, most
+                                    surprising, and heart-stirring event at sea.</li>
+                            </ul>
+                            <p></p><br />
+                            <div class="slider" id="Slider-Entertainment">
+                                <div class="grid-container-slider">
+                                    <div class="item control" onclick="nextSlide(-1)"><i
+                                            class="fas fa-chevron-circle-left"></i></div>
+                                    <div class="item content"></div>
+                                    <div class="item control" onclick="nextSlide(1)"><i
+                                            class="fas fa-chevron-circle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Health & Fitness" class="tab-content">
+                            <p><b>Wellness is Personal.</b></p>
+                            <p>Expect a Virgin-style makeover to cruise spa &amp; fitness programming. Whether Sailors
+                                are into high-intensity workouts, deep breaths in search of nirvana, or if they are that
+                                person who pays for a gym membership but never uses it – Virgin Voyages provide spaces
+                                to care for themselves in whichever way works best for them. For the 'do nothings,' 'do
+                                some things' and the 'do literally everythings' we have a way to sweat that suits
+                                everyone. From sunrise yoga to outdoor boxing, meditation to HIIT workouts, and even
+                                specifically curated hikes at our ports, our approach to working out is that it works
+                                for our Sailors. </p>
+                            <p><b>Redeem Yourself.</b></p>
+                            <p>The wellness and personal style spaces onboard provide a proper dose of Vitamin Sea to
+                                leave Sailors totally restored and ready for anything and everything. If vacation for
+                                Sailors isn't complete without the ultimate form of self care, the award winning spa
+                                will be their second home. From massages so good they'll question life itself, to a mud
+                                room that will revilatalize their soul and body, it's called Redemption for a reason. 
+                            </p><br />
+                            <div class="slider" id="Slider-Health & Fitness">
+                                <div class="grid-container-slider">
+                                    <div class="item control" onclick="nextSlide(-1)"><i
+                                            class="fas fa-chevron-circle-left"></i></div>
+                                    <div class="item content"></div>
+                                    <div class="item control" onclick="nextSlide(1)"><i
+                                            class="fas fa-chevron-circle-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="deckplans" class="tab-content">
+                            <div class="itin-accordion">
+                                <div class="accordion-pane"><input type="radio" id="rd0" name="rd0"><label
+                                        class="accordion-pane-label" for="rd0">Deck 17</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/06/10/16/06/47/78daecb6-6544-4a64-94ae-cbcd50285e61/Virgin Voyages Scarlet Lady Deck 17.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd1" name="rd1"><label
+                                        class="accordion-pane-label" for="rd1">Deck 16</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/09/1d3e3a98-eb2c-4d93-92f9-27303a6d5255/Virgin Voyages Scarlet Lady Deck Plans Deck 16.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd2" name="rd2"><label
+                                        class="accordion-pane-label" for="rd2">Deck 15</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/09/4fd4b29e-6686-4e92-add8-095eec819e0f/Virgin Voyages Scarlet Lady Deck Plans Deck 15.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd3" name="rd3"><label
+                                        class="accordion-pane-label" for="rd3">Deck 14</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/09/bb0074f3-1965-4e71-b6d9-2da39f132d98/Virgin Voyages Scarlet Lady Deck Plans Deck 14.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd4" name="rd4"><label
+                                        class="accordion-pane-label" for="rd4">Deck 13</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/08/e9c0fd11-ae28-48a7-92fa-0cf52beb73bd/Virgin Voyages Scarlet Lady Deck Plans Deck 13.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd5" name="rd5"><label
+                                        class="accordion-pane-label" for="rd5">Deck 12</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/08/0a506ab6-66b2-42a4-9c23-35f72eab8bbc/Virgin Voyages Scarlet Lady Deck Plans Deck 12.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd6" name="rd6"><label
+                                        class="accordion-pane-label" for="rd6">Deck 11</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/08/04b72db6-0f12-4944-ac88-0634516a23b9/Virgin Voyages Scarlet Lady Deck Plans Deck 11.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd7" name="rd7"><label
+                                        class="accordion-pane-label" for="rd7">Deck 10</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/08/01decebf-78d5-4765-967c-fd7aa2e585e2/Virgin Voyages Scarlet Lady Deck Plans Deck 10.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd8" name="rd8"><label
+                                        class="accordion-pane-label" for="rd8">Deck 9</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/08/0c60e216-7bc0-44f1-8c14-f10624bfdb12/Virgin Voyages Scarlet Lady Deck Plans Deck 9.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd9" name="rd9"><label
+                                        class="accordion-pane-label" for="rd9">Deck 8</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/07/d516f19c-2b11-492a-9c14-18ca54b6dca1/Virgin Voyages Scarlet Lady Deck Plans Deck 8.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd10" name="rd10"><label
+                                        class="accordion-pane-label" for="rd10">Deck 7</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/07/de2b3f9c-0e96-4282-86a5-4ad918393269/Virgin Voyages Scarlet Lady Deck Plans Deck 7.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd11" name="rd11"><label
+                                        class="accordion-pane-label" for="rd11">Deck 6</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/07/e46d1e00-aff4-44b4-ba13-bd4e45812237/Virgin Voyages Scarlet Lady Deck Plans Deck 6.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd12" name="rd12"><label
+                                        class="accordion-pane-label" for="rd12">Deck 5</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2019/02/06/08/32/07/4398d9a9-bf85-440e-9db1-9ec196adc6fc/Virgin Voyages Scarlet Lady Deck Plans Deck 5.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                                <div class="accordion-pane"><input type="radio" id="rd13" name="rd13"><label
+                                        class="accordion-pane-label" for="rd13">Deck 4</label>
+                                    <div class="accordion-pane-content"><img
+                                            src="https://widgety-assets.s3.amazonaws.com/2022/06/24/10/50/42/9f33e43c-966a-41b4-b956-519f92f46920/Virgin Voyages Scarlet Lady Deck 14.png"
+                                            class="cruise-section-image" style="width:100%;"
+                                            onError="this.onerror=null;this.style='display:none';" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="portsofcall" class="tab-content">
+                            <div><br /><b><u>United States - Miami, Florida</u></b><br />Miami is one of the world’s
+                                most popular holiday spots. It has so much to offer; from its countless beach areas, to
+                                culture and museums, from spa and shopping days out, to endless cuban restaurants and
+                                cafes. Miami is a multicultural city that has something to offer to everyone. </div>
+                            <div><br /><b><u>Bahamas - Bimini Island</u></b><br />The lovely little dual islands of
+                                Bimini consists of two main islands—North Bimini Island and South Bimini Island— as well
+                                as countless cays. Located just 50 miles off Florida’s coast, Bimini is the closest
+                                Bahamian island to the United States, and as such is the most “American” if all the
+                                Bahamian Islands. Yet, the miles and miles of pristine beaches are witness to the fact
+                                that yes, this is the Bahamas and yes, this is paradise indeed.</div>
+                            <div><br /><b><u>United States - Miami, Florida</u></b><br />Miami is one of the world’s
+                                most popular holiday spots. It has so much to offer; from its countless beach areas, to
+                                culture and museums, from spa and shopping days out, to endless cuban restaurants and
+                                cafes. Miami is a multicultural city that has something to offer to everyone. </div>
+                        </div>
+                        <div><br />
+                            <h3 class="HighlightColour">Cruise itinerary</h3><br />
+                        </div>
+                        <div class="cruise-itinerary">
+                            <div class="itinerary-item">Day</div>
+                            <div class="itinerary-item">Destination</div>
+                            <div class="itinerary-item">Arrival date</div>
+                            <div class="itinerary-item">Departure date</div>
+                            <div class="itinerary-item">1</div>
+                            <div class="itinerary-item">United States - Miami, Florida(MIA)</div>
+                            <div class="itinerary-item">15/09/2023 00:00:00</div><input type="hidden"
+                                class="cruise-itinerary-details"
+                                value="NAME||United States - Miami, Florida||Longitude||-80.19179||Latitude||25.76168||Day||1" />
+                            <div class="itinerary-item">15/09/2023 19:00:00</div>
+                            <div class="itinerary-item">3</div>
+                            <div class="itinerary-item">Dominican Republic - Puerto Plata(PPL)</div>
+                            <div class="itinerary-item">17/09/2023 09:00:00</div><input type="hidden"
+                                class="cruise-itinerary-details"
+                                value="NAME||Dominican Republic - Puerto Plata||Longitude||-70.6871091||Latitude||19.7807686||Day||3" />
+                            <div class="itinerary-item"></div>
+                            <div class="itinerary-item">5</div>
+                            <div class="itinerary-item">Bahamas - Bimini Island(BIM)</div>
+                            <div class="itinerary-item">19/09/2023 08:00:00</div><input type="hidden"
+                                class="cruise-itinerary-details"
+                                value="NAME||Bahamas - Bimini Island||Longitude||-79.250753||Latitude||25.742847||Day||5" />
+                            <div class="itinerary-item"></div>
+                            <div class="itinerary-item">6</div>
+                            <div class="itinerary-item">United States - Miami, Florida(MIA)</div>
+                            <div class="itinerary-item">20/09/2023 06:30:00</div><input type="hidden"
+                                class="cruise-itinerary-details"
+                                value="NAME||United States - Miami, Florida||Longitude||-80.19179||Latitude||25.76168||Day||6" />
+                            <div class="itinerary-item"></div>
+                        </div><br />
+                        <div id="map" style="height: 400px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Enquiry" class="Enquiry">
+        <div class="title">
+            <h3 class="HighlightColour">What would you like to do next?</h3>
+        </div>
+        <div id="EnquiryForm" class="grid-container-enquiry">
+            <div Class="item question-review-holder" style="background-color: #BC0000"><input type="radio"
+                    name="rdfeedback" class="enquiry-radio" value="I would like to book" /><span>I would like to
+                    book</span></div>
+            <div Class="item question-review-holder" style="background-color: #FF0000"><input type="radio"
+                    name="rdfeedback" class="enquiry-radio" value="I would like some more information" /><span>I would
+                    like some more information</span></div>
+            <div Class="item question-review-holder" style="background-color: #FF6371"><input type="radio"
+                    name="rdfeedback" class="enquiry-radio" value="I'm not interested" /><span>I'm not interested</span>
+            </div>
+        </div><input type="text" id="antirbt" style="display:none;" />
+        <div class="enquiry-text-area"><textarea id="TAfeedback" placeholder="enter your comments here..."></textarea>
+        </div>
+        <div class="enquiry-button-area"><input type="button" id="btnSubmit" value="Send response to your travel agent"
+                onclick="CallWebService()" style="background-color: ##000000" /></div>
+    </section>
+    <div id="EnquiryConfirmation" class="grid-container-enquiry-confirmation">
+        <div class="item">Your request has been sent. Thank you.</div>
+    </div>
+    </section>
+    <footer id="Footer">
+        <div class="grid-container-footer">
+            <div class="item">
+                <p>Footer.</p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script> function myFunction(imgs) { var expandImg = document.getElementById("expandedImg"); var imgText = document.getElementById("imgtext"); expandImg.src = imgs.src; expandImg.parentElement.style.display = "block"; } function CopyQuoteLink() { var $temp = $("<input>"); $("body").append($temp); $temp.val('http://cdn.dev.verticalsystems.co.uk/Quotes/3/1/Customer-Quotes/1105/2976/80113141013153-Your-Quote-19.html').select(); document.execCommand("copy"); $temp.remove(); } function imgError(image) { var imgContainer = image.parentNode; imgContainer.parentNode.removeChild(imgContainer); }</script>
+<script src="http://cdn.dev.verticalsystems.co.uk/Scripts/Quotepreview.js?09/11/2022 18:06:27"></script>
+<style>
+    #hero {
+        background-repeat: no-repeat;
+    }
+
+    #preview-logo {
+        z-index: 9999;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    #ContactDetails {
+        color: #FFFFFF
+    }
+
+    #Title {
+        color: #FFFFFF;
+        background-color: #FF0000;
+    }
+
+    #Overview {
+        color: #FFFFFF;
+        background-color: #000000
+    }
+
+    #HighlightColour {
+        color: #FF0000
+    }
+
+    .HighlightColour {
+        color: #FF0000
+    }
+
+    .HighlightColour-background {
+        background-color: #FF0000
+    }
+
+    .tab-link:hover,
+    .tab-link.active {
+        background-color: #FF0000;
+        color: #FFFFFF
+    }
+
+    .tab-content {
+        border: 1px solid #FF0000
+    }
+
+    .grid-container-hero {
+        height: auto;
+    }
+</style>
+
 </html>
